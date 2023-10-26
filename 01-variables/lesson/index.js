@@ -1,22 +1,29 @@
-let name = "Dmitry"; //1
-let age = 36; //2
-let boolean = true; //3
-let number = 777; //4
-let string = "ProstoCode"; //5
-let value = null; //6
-let valueOther = undefined; //7
-
-let city = {}; //8
+//1
+let name = "Dmitry"; 
+//2
+let age = 36; 
+//3
+let boolean = true; 
+//4
+let number = 777; 
+//5
+let string = "ProstoCode"; 
+//6
+let value = null; 
+//7
+let valueOther = undefined; 
+//8
+let city = {}; 
 //---------------------------------9
 const welcome = function () {
-    console.log("Hello, world!")
+    console.log("Hello, world!");
 }
 welcome();
 
 //Практика по операторам
 
 //1
-console.log(4 > 5)
+console.log(4 > 5);
 //----------
 let x = 7;
 let y = 8;
@@ -42,4 +49,24 @@ let barCode = 42;
 let resultTwo = country === barCode;
 console.log(resultTwo); //false
 
+//4
+console.log(false <= true); //true
 
+// Данные переменные обьявлены в начале кода.
+//5
+console.log(number === string); //false
+
+//6
+console.log(number >= boolean); //true
+
+//7
+console.log(string <= boolean); //false
+
+//8
+console.log(number === value); //false
+
+//9
+console.log(valueOther <= boolean); //false
+
+//10
+console.log(value >= valueOther); //false
